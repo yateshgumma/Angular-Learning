@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class UsersComponent implements OnInit {
 allowNewUser = false;
 changeUserStatus="";
+userName= ""
   constructor() {
     setTimeout(()=>{
       this.allowNewUser=true;
